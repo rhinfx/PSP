@@ -1,4 +1,4 @@
-Método estático para Validar un Nif.
+# Método estático para Validar un Nif.
 
 ```Java
 	public static boolean ValidarNIF(String Nif) {
@@ -25,3 +25,18 @@ Método estático para Validar un Nif.
 		
 		return resultado;
 	}
+```
+	
+#Ejercicio de Herencia
+
+###Clase Empleado
+
+###Clase Operario
+
+###Clase Directivo
+
+###Clase Oficial
+
+###Clase Tecnico
+
+###MainEmpleados
