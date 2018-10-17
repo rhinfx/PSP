@@ -30,13 +30,140 @@
 # Ejercicio de Herencia
 
 ### Clase Empleado
+```Java
+public class Empleado {
+	private String nombre;
+
+	public Empleado(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	public Empleado() {
+		super();
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleado "+this.nombre;
+	}
+}
+```
 
 ### Clase Operario
+```Java
+public class Operario extends Empleado {
+
+	public Operario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Operario(String nombre) {
+		super(nombre);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+" -> Operario";
+	}
+}
+```
 
 ### Clase Directivo
+```Java
+public class Directivo extends Empleado{
+
+	public Directivo() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Directivo(String nombre) {
+		super(nombre);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString()+" -> Directivo";
+	}
+	
+}
+```
 
 ### Clase Oficial
+```Java
+public class Oficial extends Operario{
+
+	public Oficial() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Oficial(String nombre) {
+		super(nombre);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+" -> Oficial";
+	}
+	
+}
+```
 
 ### Clase Tecnico
+```Java
+public class Tecnico extends Operario{
+
+	public Tecnico() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Tecnico(String nombre) {
+		super(nombre);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString()+" -> Técnico";
+	}
+
+}
+```
 
 ### MainEmpleados
+```Java
+public class MainEmpleados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Empleado E1 = new Empleado("Rafa");
+		Directivo D1 = new Directivo("Mario");
+		Operario OP1 = new Operario("Alfonso");
+		Oficial OF1 = new Oficial("Luis");
+		Tecnico T1 = new Tecnico("Pablo");
+		System.out.println(E1);
+		System.out.println(D1);
+		System.out.println(OP1);
+		System.out.println(OF1);
+		System.out.println(T1);
+
+	}
+
+}
+```
