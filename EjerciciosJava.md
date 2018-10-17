@@ -27,16 +27,16 @@
 	}
 ```
 	
-#Ejercicio de Herencia
+# Ejercicio de Herencia
 
-###Clase Empleado
+### Clase Empleado
 
-###Clase Operario
+### Clase Operario
 
-###Clase Directivo
+### Clase Directivo
 
-###Clase Oficial
+### Clase Oficial
 
-###Clase Tecnico
+### Clase Tecnico
 
-###MainEmpleados
+### MainEmpleados
