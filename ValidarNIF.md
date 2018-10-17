@@ -1,3 +1,5 @@
+Método estático para Validar un Nif.
+
 ```Java
 	public static boolean ValidarNIF(String Nif) {
 		boolean resultado = false;
@@ -23,4 +25,3 @@
 		
 		return resultado;
 	}
-´´´
