@@ -21,7 +21,7 @@ public class Dos {
 		
 		try {
 			int exitValue = process.waitFor();
-			System.out.println("\nCódigo de salida: "+ exitValue);
+			System.out.println("\nCÃ³digo de salida: "+ exitValue);
 		} catch (InterruptedException e) {
 			e.printStackTrace(System.err);
 		}
