@@ -5,7 +5,7 @@ class StartExcel {
         throws IOException  
     {  
     	/*Ruta del archivo*/
-        String fileName = "C:\\Users\\vesprada\\Desktop\\Nuevo Hoja de c·lculo de OpenDocument.ods";
+        String fileName = "C:\\Users\\vesprada\\Desktop\\Nuevo Hoja de c√°lculo de OpenDocument.ods";
         
         String[] commands = {"cmd", "/c", "start", "\"DummyTitle\"",fileName};  
         Runtime.getRuntime().exec(commands);  
