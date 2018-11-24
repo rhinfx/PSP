@@ -12,5 +12,5 @@ los resultados que se correspondas con lo introducido según nuestro criterio de
 
 ## Ejemplo de Ejecución
 
-![Imagen Aeropuertos](http://blog.elinsti.com/wp-content/uploads/2018/10/Ejercicio-Herencia-Java.jpg)
+![Imagen Aeropuertos](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosJava/4%20-%20Aeropuerto/aeropuertos.gif)
 
