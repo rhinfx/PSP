@@ -14,7 +14,7 @@ Habitualmente, un servicio es un programa que atiende a otro programa.
 
 No tienen interfaz, se ejecutan en segundo plano.
 
-![Imagen EjemploHerencia](http://blog.elinsti.com/wp-content/uploads/2018/10/Ejercicio-Herencia-Java.jpg)
+![Imagen EjemploHerencia](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/Servicios.png)
 
 
 # Proceso
