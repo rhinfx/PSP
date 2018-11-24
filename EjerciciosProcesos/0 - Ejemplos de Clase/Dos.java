@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class Dos {
 
 	public static void main(String[] args) throws IOException {
-		final String commands[] = {"cmd.exe","/C","java -version"};
+		final String commands[] = {"cmd.exe","/C","tasklist"};
 		
 		Process process = new ProcessBuilder(commands).start();
 		
