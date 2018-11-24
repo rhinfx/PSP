@@ -42,16 +42,17 @@ Un proceso no tiene acceso a los datos de otro procesos. Sin embargo un hilo sí
 
 La programación concurrente es la parte de la programación que se ocupa de crear programas que pueden tener varios procesos/hilos que colaboran para ejecutar un trabajo y aprovechar al máximo el rendimiento de sistemas multinúcleo.
 
+![Imagen Concurrente](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/progConcurrente.png)
 
 
 # Programación Paralela
 
  En el caso de la programación paralela un solo ordenador puede ejecutar varias tareas a la vez (lo que supone que tiene 2 o más núcleos).
  
- 
+ ![Imagen Concurrente](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/progParalela.png)
 
 # Programación Distribuida
 
 En sistemas distribuidos hablamos de programación distribuida.
 
-
+![Imagen Concurrente](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/progDistribuida.png)
