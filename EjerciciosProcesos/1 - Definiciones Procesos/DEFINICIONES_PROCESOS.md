@@ -14,7 +14,7 @@ Habitualmente, un servicio es un programa que atiende a otro programa.
 
 No tienen interfaz, se ejecutan en segundo plano.
 
-![Imagen EjemploHerencia](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/Servicios.png)
+![Imagen Servicio](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/Servicios.png)
 
 
 # Proceso
@@ -26,7 +26,7 @@ Es un archivo que está en ejecución y bajo el control del sistema operativo. U
 - Interrumpido: el proceso tiene que seguir en ejecución pero el usuario ha decidido interrumpir la ejecución.
 - Existen otros estados pero ya son muy dependientes del sistema operativo concreto
 
-![Imagen EjemploHerencia](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/thread2.png)
+![Imagen Proceso](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/thread2.png)
 
 
 # Hilo
@@ -35,7 +35,7 @@ Un hilo es un concepto más avanzado que un proceso: al hablar de procesos cada 
 
 Un proceso no tiene acceso a los datos de otro procesos. Sin embargo un hilo sí accede a los datos de otro hilo. Esto complicará algunas cuestiones a la hora de programar.
 
-![Imagen EjemploHerencia](http://blog.elinsti.com/wp-content/uploads/2018/10/Ejercicio-Herencia-Java.jpg)
+![Imagen Hilo](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/thread2.png)
 
 
 # Programación Concurrente
