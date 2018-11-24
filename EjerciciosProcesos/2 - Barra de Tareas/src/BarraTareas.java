@@ -16,7 +16,7 @@ import java.awt.event.ActionEvent;
 public class BarraTareas extends JFrame {
 	
 	/**
-	 * Método para abrir una app con ProcesBuilder
+	 * MÃ©todo para abrir una app con ProcesBuilder
 	 */
 	
 	public void OpenApp(String path) {
