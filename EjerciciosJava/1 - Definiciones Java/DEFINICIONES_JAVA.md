@@ -1,7 +1,6 @@
-https://docs.oracle.com/javase/tutorial/java/index.html
 
 # CLASE
-En el mundo real, a menudo encontrarás muchos objetos individuales del mismo tipo. Puede haber miles de otras bicicletas en existencia, todas de la misma marca y modelo. Cada bicicleta se construyó a partir del mismo conjunto de planos y, por lo tanto, contiene los mismos componentes. En términos orientados a objetos, decimos que su bicicleta es una instancia de la clase de objetos conocidos como bicicletas. Una clase es el plano a partir del cual se crean los objetos individuales.
+En el mundo real, a menudo encontramos muchos objetos individuales del mismo tipo. Puede haber miles de otras bicicletas en existencia, todas de la misma marca y modelo. Cada bicicleta se construyó a partir del mismo conjunto de planos y, por lo tanto, contiene los mismos componentes. En términos orientados a objetos, decimos que su bicicleta es una instancia de la clase de objetos conocidos como bicicletas. Una clase es el plano a partir del cual se crean los objetos individuales.
 
 La siguiente clase de bicicletas es una posible implementación de una bicicleta:
 ```Java
