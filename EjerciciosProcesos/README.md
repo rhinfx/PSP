@@ -1,8 +1,7 @@
 # Ejercicios Procesos
 
-0. Programa de quiniela
-1. Definiciones Java
-2. ValidarNif
-3. Ejemplo de Herencia
-4. Aplicación Aeropuertos
+0. Ejemplos de clase  
+1. Definiciones multiprocesos
+2. Desarrollar una barra de tareas
+3. Abrir aplicaciones del SO
 
