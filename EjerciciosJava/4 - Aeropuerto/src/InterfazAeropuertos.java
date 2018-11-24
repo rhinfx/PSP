@@ -29,7 +29,7 @@ import javax.swing.JList;
 public class InterfazAeropuertos extends JFrame {
 	
 	/**
-	 * Método para leer los aeropuertos
+	 * MÃ©todo para leer los aeropuertos
 	 */
 	
 	public static ArrayList<Aeropuerto> listaAeropuertos = new ArrayList<Aeropuerto>();
@@ -144,7 +144,7 @@ public class InterfazAeropuertos extends JFrame {
 		contentPane.add(lblEntrada);
 		
 		/**
-		 * Creo un Jlist dentro de un ScrollPane para mostrar los resultados obtenidos en la búsqueda
+		 * Creo un Jlist dentro de un ScrollPane para mostrar los resultados obtenidos en la bÃºsqueda
 		 */
 		
 		DefaultListModel<Aeropuerto> listModel = new DefaultListModel<Aeropuerto>();
@@ -162,7 +162,7 @@ public class InterfazAeropuertos extends JFrame {
 		/**
 		 * Listener del JList
 		 * 
-		 * Cuando hagamos click en un resultado se abrirá el navegador con 
+		 * Cuando hagamos click en un resultado se abrirÃ¡ el navegador con 
 		 * el google maps del aeropuerto		
 		 */
 		listResultados.addListSelectionListener(new ListSelectionListener() {
@@ -194,7 +194,7 @@ public class InterfazAeropuertos extends JFrame {
 		 * Listener del text box.
 		 * 
 		 * A medida que vayamos introduciendo datos iremos haciendo distitnas
-		 * comprobaciones según lo que introduzca y mostraremos en la Jlist
+		 * comprobaciones segÃºn lo que introduzca y mostraremos en la Jlist
 		 * los resultados posibles.
 		 */
 		
