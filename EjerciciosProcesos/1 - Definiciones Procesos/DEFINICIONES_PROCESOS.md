@@ -26,7 +26,7 @@ Es un archivo que está en ejecución y bajo el control del sistema operativo. U
 - Interrumpido: el proceso tiene que seguir en ejecución pero el usuario ha decidido interrumpir la ejecución.
 - Existen otros estados pero ya son muy dependientes del sistema operativo concreto
 
-![Imagen EjemploHerencia](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/Proceso2-1.png)
+![Imagen EjemploHerencia](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosProcesos/1%20-%20Definiciones%20Procesos/img/thread2.png)
 
 
 # Hilo
