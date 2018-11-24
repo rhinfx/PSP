@@ -13,4 +13,4 @@ resultado nos lo muestra por la consola de nuestro ide
 
 ### Hilos
 
-Las clases Number, NumberThread y 
+Las clases Number, NumberThread y NumberRunnable son ejemplos de clase de programación multihilo.
