@@ -8,5 +8,5 @@ La aplicación dispone de un botón que activará la búsqueda en la web https:/
 
 ## Ejemplo de ejecucuión
 
-![Imagen Aeropuertos](https://github.com/rhinfx/PSP/blob/master/SegundaEvaluacion/2%20-%20Consumir%20Jsoup/jsoup-aww.gif)
+![Imagen AWW](https://github.com/rhinfx/PSP/blob/master/SegundaEvaluacion/2%20-%20Consumir%20Jsoup/jsoup-aww.gif)
 
