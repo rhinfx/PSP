@@ -12,5 +12,5 @@ los resultados que se correspondas con lo introducido según nuestro criterio de
 
 ## Ejemplo de Ejecución
 
-![Imagen Aeropuertos](https://raw.githubusercontent.com/rhinfx/PSP/master/EjerciciosJava/4%20-%20Aeropuerto/aeropuertos.gif)
+![Imagen Aeropuertos](https://github.com/rhinfx/PSP/blob/master/PrimeraEvaluacion/EjerciciosJava/4%20-%20Aeropuerto/aeropuertos.gif)
 
