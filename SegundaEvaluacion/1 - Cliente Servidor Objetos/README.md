@@ -1,14 +1,15 @@
 # Cliente Servidor - Objetos
 
-Aplicación de Java Multihilo que un cliente y un servidor intercambian información de objetos. 
+Aplicación de Java Multihilo donde un cliente y un servidor intercambian información de objetos de tipo Alumno.
 
 ## Funcionamiento
 
-1. Servidor...
-2. Cliente..
-3. Servidor...
-4. Acepta varios clientes a la vez...
-5. etc
+1. Iniciamos la aplicación y el servidor espera clientes que se conecten.
+2. Los clientes se pueden conectar de forma simultánea al servidor gracias a que es multhilo.
+3. El servidor les envían un mensaje a los clientes que se conectan para que introduzcan el identificado del objeto Alumno que quieren ver.
+4. Clientes introducen el identificador.
+5. Servidor muestra a los clientes la información del objeto seleccionado.
+6. El servidor registra en el sistema los pasos realizados.
 
 ## Ejemplo de Ejecución
 
