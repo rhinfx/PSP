@@ -9,3 +9,7 @@ Aplicación de Java Multihilo que un cliente y un servidor intercambian informac
 3. Servidor...
 4. Acepta varios clientes a la vez...
 5. etc
+
+## Ejemplo de Ejecución
+
+gif
