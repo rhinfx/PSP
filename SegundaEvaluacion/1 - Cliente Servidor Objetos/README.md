@@ -10,6 +10,7 @@ Aplicación de Java Multihilo donde un cliente y un servidor intercambian inform
 4. Clientes introducen el identificador.
 5. Servidor muestra a los clientes la información del objeto seleccionado.
 6. El servidor registra en el sistema los pasos realizados.
+7. Termina la conexión.
 
 ## Ejemplo de Ejecución
 
