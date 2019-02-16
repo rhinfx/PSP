@@ -12,4 +12,4 @@ Aplicación de Java Multihilo que un cliente y un servidor intercambian informac
 
 ## Ejemplo de Ejecución
 
-gif
+![Imagen Aeropuertos](https://github.com/rhinfx/PSP/blob/master/PrimeraEvaluacion/EjerciciosJava/4%20-%20Aeropuerto/aeropuertos.gif)
