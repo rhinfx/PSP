@@ -41,7 +41,7 @@ public class ClientThread extends Thread{
 				break;
 			}
 			
-			System.out.println("Información de alumno enviada al cliente.");
+			System.out.println("InformaciÃ³n de alumno enviada al cliente.");
 			
 			// 5.- Cerrar stream socket
 			input.close();
