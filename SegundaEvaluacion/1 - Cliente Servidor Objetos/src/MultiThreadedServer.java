@@ -9,11 +9,11 @@ public class MultiThreadedServer {
 	public static ArrayList<Alumno> listaAlumnos = new ArrayList<Alumno>();
 		
 	public static void generarAlumnos() {
-		listaAlumnos.add(new Alumno (1,"Pepe","García", 15));
-		listaAlumnos.add(new Alumno (2,"María","Gutierrez", 16));
-		listaAlumnos.add(new Alumno (3,"Juan","Martínez", 12));
-		listaAlumnos.add(new Alumno (4,"Ismael","Fernández", 17));
-		listaAlumnos.add(new Alumno (5,"Alicia","García", 19));
+		listaAlumnos.add(new Alumno (1,"Pepe","GarcÃ­a", 15));
+		listaAlumnos.add(new Alumno (2,"MarÃ­a","Gutierrez", 16));
+		listaAlumnos.add(new Alumno (3,"Juan","MartÃ­nez", 12));
+		listaAlumnos.add(new Alumno (4,"Ismael","FernÃ¡ndez", 17));
+		listaAlumnos.add(new Alumno (5,"Alicia","GarcÃ­a", 19));
 	}
 
 
