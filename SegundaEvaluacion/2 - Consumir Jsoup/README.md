@@ -8,5 +8,5 @@ bla bla bla
 
 ## Ejemplo de ejecucuión
 
-![Imagen Aeropuertos](https://github.com/rhinfx/PSP/blob/master/SegundaEvaluacion/1%20-%20Cliente%20Servidor%20Objetos/cliente-servidor.gif)
+![Imagen Aeropuertos](https://github.com/rhinfx/PSP/blob/master/SegundaEvaluacion/2%20-%20Consumir%20Jsoup/jsoup-aww.gif)
 
