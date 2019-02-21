@@ -4,11 +4,11 @@ Aplicación creada con android studio que permite hacer una llamada, en este cas
 
 ## Funcionamiento
 
-La aplicación cuando se inicia ejecuta una tarea de la clase AsynTask de Android que dicha clase dispone de varios métodos, uno de los cuales "doInBackground()" crea un hilo a parte, que usamos para realizar tareas pesadas, en este caso conectarnos a la API. Sin embargo todos los demás métodos de la clase AsynTask se ejecutan en el hilo principal del programa, por lo que nos permite desde los otros métodos, en nuestro caso, actualizar la interfaz o lo que tengamos que hacer.
+La aplicación cuando se inicia ejecuta una tarea de la clase AsynkTask de Android que dicha clase dispone de varios métodos, uno de los cuales "doInBackground()" crea un hilo a parte, que usamos para realizar tareas pesadas, en este caso conectarnos a la API. Sin embargo todos los demás métodos de la clase AsynkTask se ejecutan en el hilo principal del programa, por lo que nos permite desde los otros métodos, en nuestro caso, actualizar la interfaz o lo que tengamos que hacer.
 
 Básicamente nos comunicamos con la api en la tarea en un hilo aparte y parseamos el JSON leído mediante al librería GSON a nuestro modelo de datos, que lo guardamos en una Lista de platos con la que con el método "onPostExecute(Result)" se la pasamos a la activity principal para que podamos trabajar con ella.
 
-Dispone de un menú desplegable "Navigation Drawer" y en la opción Dishes, mostramos mediante un RecyclerView toda la lista de platos que ya hemos leído en cuanto iniciamos la aplicación mediante la AsynTask, si pulsamos en un plato, nos muestra el detalle de este.
+Dispone de un menú desplegable "Navigation Drawer" y en la opción Dishes, mostramos mediante un RecyclerView toda la lista de platos que ya hemos leído en cuanto iniciamos la aplicación mediante la AsynkTask, si pulsamos en un plato, nos muestra el detalle de este.
 
 ## Ejemplo de ejecucuión
 
