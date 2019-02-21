@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 14-feb-2019 10:59:48 by Hibernate Tools 5.2.11.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="menus" dynamic-insert="false" dynamic-update="false" mutable="true" name="hibernate.UsersMenus" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="users_menus">
+        <composite-id class="hibernate.UsersMenusId" mapped="false" name="id" unsaved-value="undefined">
+            <key-property name="userId" type="int">
+                <column name="user_id"/>
+            </key-property>
+            <key-property name="menuId" type="int">
+                <column name="menu_id"/>
+            </key-property>
+        </composite-id>
+        <many-to-one class="hibernate.Menus" embed-xml="true" fetch="select" insert="false" name="menus" not-found="exception" optimistic-lock="true" unique="false" update="false">
+            <column name="menu_id" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="hibernate.Users" embed-xml="true" fetch="select" insert="false" name="users" not-found="exception" optimistic-lock="true" unique="false" update="false">
+            <column name="user_id" not-null="true"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="category" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="category" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="rating" optimistic-lock="true" type="short" unique="false">
+            <column name="rating" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

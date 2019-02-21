@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 14-feb-2019 10:59:48 by Hibernate Tools 5.2.11.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="menus" dynamic-insert="false" dynamic-update="false" mutable="true" name="hibernate.Dishes" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="dishes">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="name" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="time" optimistic-lock="true" type="int" unique="false">
+            <column name="time" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="category" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="category" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="cuisine" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="cuisine" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="description" optimistic-lock="true" type="string" unique="false">
+            <column length="65535" name="description" not-null="true"/>
+        </property>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="dishesIngredientses" optimistic-lock="true" sort="unsorted" table="dishes_ingredients">
+            <key on-delete="noaction">
+                <column name="dish_id" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.DishesIngredients" embed-xml="true" not-found="exception"/>
+        </set>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="dishesAuthorses" optimistic-lock="true" sort="unsorted" table="dishes_authors">
+            <key on-delete="noaction">
+                <column name="dish_id" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.DishesAuthors" embed-xml="true" not-found="exception"/>
+        </set>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="menusesForDishAppetizer" optimistic-lock="true" sort="unsorted" table="menus">
+            <key on-delete="noaction">
+                <column name="dish_appetizer" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.Menus" embed-xml="true" not-found="exception"/>
+        </set>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="menusesForDishDessert" optimistic-lock="true" sort="unsorted" table="menus">
+            <key on-delete="noaction">
+                <column name="dish_dessert" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.Menus" embed-xml="true" not-found="exception"/>
+        </set>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="menusesForDishMainCourse" optimistic-lock="true" sort="unsorted" table="menus">
+            <key on-delete="noaction">
+                <column name="dish_main_course" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.Menus" embed-xml="true" not-found="exception"/>
+        </set>
+    </class>
+</hibernate-mapping>

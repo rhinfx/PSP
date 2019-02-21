@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 14-feb-2019 10:59:48 by Hibernate Tools 5.2.11.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="menus" dynamic-insert="false" dynamic-update="false" mutable="true" name="hibernate.Menus" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="menus">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="hibernate.Dishes" embed-xml="true" fetch="select" insert="true" name="dishesByDishAppetizer" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="dish_appetizer" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="hibernate.Dishes" embed-xml="true" fetch="select" insert="true" name="dishesByDishDessert" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="dish_dessert" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="hibernate.Dishes" embed-xml="true" fetch="select" insert="true" name="dishesByDishMainCourse" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="dish_main_course" not-null="true"/>
+        </many-to-one>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="usersMenuses" optimistic-lock="true" sort="unsorted" table="users_menus">
+            <key on-delete="noaction">
+                <column name="menu_id" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.UsersMenus" embed-xml="true" not-found="exception"/>
+        </set>
+    </class>
+</hibernate-mapping>

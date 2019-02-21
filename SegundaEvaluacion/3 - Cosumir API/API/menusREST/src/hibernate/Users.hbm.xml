@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 14-feb-2019 10:59:48 by Hibernate Tools 5.2.11.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="menus" dynamic-insert="false" dynamic-update="false" mutable="true" name="hibernate.Users" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="users">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="name" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="surname" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="surname" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="age" optimistic-lock="true" type="int" unique="false">
+            <column name="age" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="email" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="email" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="gender" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="gender" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="nationality" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="nationality" not-null="true"/>
+        </property>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="usersMenuses" optimistic-lock="true" sort="unsorted" table="users_menus">
+            <key on-delete="noaction">
+                <column name="user_id" not-null="true"/>
+            </key>
+            <one-to-many class="hibernate.UsersMenus" embed-xml="true" not-found="exception"/>
+        </set>
+    </class>
+</hibernate-mapping>
